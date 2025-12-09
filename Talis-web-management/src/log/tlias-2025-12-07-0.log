@@ -1,0 +1,408 @@
+2025-12-07 20:32:38.450 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 9756 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 20:32:38.453 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:32:39.866 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 20:32:39.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:32:39.890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 20:32:39.891 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 20:32:39.975 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 20:32:39.977 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1464 ms
+2025-12-07 20:32:40.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:32:40.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:32:40.876 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.992 seconds (process running for 5.102)
+2025-12-07 20:32:45.306 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:32:45.307 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:32:45.309 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-07 20:32:45.367 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:45.398 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:32:45.406 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-07 20:32:46.170 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@216e036f
+2025-12-07 20:32:46.174 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-07 20:32:46.652 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:47.807 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:47.808 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:32:49.330 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:49.835 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:49.836 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:32:52.178 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:56.340 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:57.045 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 20:32:57.046 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:34:12.577 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 请求参数emp: Emp(id=null, username=zhangsan, password=null, name=法外狂徒, gender=2, phone=17638247592, job=5, salary=9999, image=, entryDate=2025-12-07, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-12-04, end=2026-01-22, company=快手, job=Java)])
+2025-12-07 20:34:12.654 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:38:18.045 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=2, begin=null, end=null)
+2025-12-07 20:38:21.414 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:38:30.066 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=李, gender=null, begin=null, end=null)
+2025-12-07 20:39:56.026 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:39:57.924 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:39:58.920 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:39:59.406 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 20:56:29.689 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:56:29.700 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 20:56:29.706 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-07 20:56:29.716 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-07 20:56:35.159 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 16580 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 20:56:35.161 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:56:36.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 20:56:36.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:56:36.402 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 20:56:36.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 20:56:36.489 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 20:56:36.490 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1286 ms
+2025-12-07 20:56:37.284 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:56:37.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:56:37.323 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.667 seconds (process running for 3.98)
+2025-12-07 20:57:20.617 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:57:20.617 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:57:20.618 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-07 20:57:20.783 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 添加用户信息emp: Emp(id=null, username=yiyi, password=null, name=依依, gender=2, phone=18472947294, job=1, salary=6666, image=, entryDate=2025-12-09, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-12-01, end=2026-01-01, company=滴滴, job=司机)])
+2025-12-07 20:57:20.802 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceimpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-12-07 20:57:20.804 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-07 20:57:21.404 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@511ae710
+2025-12-07 20:57:21.408 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-07 20:57:21.415 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@2031854652 wrapping com.mysql.cj.jdbc.ConnectionImpl@511ae710] for JDBC transaction
+2025-12-07 20:57:21.419 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@2031854652 wrapping com.mysql.cj.jdbc.ConnectionImpl@511ae710] to manual commit
+2025-12-07 20:57:21.530 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction rollback
+2025-12-07 20:57:21.530 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Rolling back JDBC transaction on Connection [HikariProxyConnection@2031854652 wrapping com.mysql.cj.jdbc.ConnectionImpl@511ae710]
+2025-12-07 20:57:21.537 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@2031854652 wrapping com.mysql.cj.jdbc.ConnectionImpl@511ae710] after transaction
+2025-12-07 20:57:21.544 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.example.service.impl.EmpServiceimpl.save(EmpServiceimpl.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.example.service.impl.EmpServiceimpl$$SpringCGLIB$$0.save(<generated>)
+	at com.example.controller.EmpController.save(EmpController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-07 21:01:01.879 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:01:01.889 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:01:01.893 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-07 21:01:01.902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-07 21:01:06.698 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 33996 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:01:06.701 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:01:07.847 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:01:07.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:01:07.879 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:01:07.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:01:07.993 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:01:07.993 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
+2025-12-07 21:01:09.048 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:01:09.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:01:09.096 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.918 seconds (process running for 4.116)
+2025-12-07 21:01:11.720 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:01:11.720 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:01:11.722 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-07 21:01:11.921 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 添加用户信息emp: Emp(id=null, username=yiyi, password=null, name=依依, gender=2, phone=18472947294, job=1, salary=6666, image=, entryDate=2025-12-09, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-12-01, end=2026-01-01, company=滴滴, job=司机)])
+2025-12-07 21:01:11.940 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceimpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-12-07 21:01:11.942 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-07 21:01:12.487 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4163a87e
+2025-12-07 21:01:12.491 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-07 21:01:12.499 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@167508342 wrapping com.mysql.cj.jdbc.ConnectionImpl@4163a87e] for JDBC transaction
+2025-12-07 21:01:12.503 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@167508342 wrapping com.mysql.cj.jdbc.ConnectionImpl@4163a87e] to manual commit
+2025-12-07 21:01:12.686 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2025-12-07 21:01:12.687 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@167508342 wrapping com.mysql.cj.jdbc.ConnectionImpl@4163a87e]
+2025-12-07 21:01:12.694 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@167508342 wrapping com.mysql.cj.jdbc.ConnectionImpl@4163a87e] after transaction
+2025-12-07 21:01:12.785 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 21:13:16.726 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 21:13:16.727 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 21:24:52.061 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:24:52.071 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:24:52.076 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-07 21:24:52.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-07 21:26:13.753 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 39652 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:26:13.756 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:26:14.982 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:26:15.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:26:15.002 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:26:15.003 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:26:15.079 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:26:15.079 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1277 ms
+2025-12-07 21:26:15.871 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:26:15.898 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:26:15.907 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.693 seconds (process running for 3.939)
+2025-12-07 21:26:54.204 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:26:54.206 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:26:54.207 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:29:04.899 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:29:04.909 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:29:07.991 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 30456 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:29:07.994 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:29:09.746 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:29:09.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:29:09.778 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:29:09.778 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:29:09.913 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:29:09.914 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1853 ms
+2025-12-07 21:29:10.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:29:10.924 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:29:10.936 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.705 seconds (process running for 4.834)
+2025-12-07 21:29:11.148 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:29:11.148 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:29:11.149 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:29:43.169 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:29:43.181 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:29:46.045 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 37924 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:29:46.048 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:29:47.650 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:29:47.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:29:47.683 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:29:47.683 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:29:47.787 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:29:47.788 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+2025-12-07 21:29:48.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:29:48.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:29:48.857 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.45 seconds (process running for 4.567)
+2025-12-07 21:29:55.140 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:29:55.140 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:29:55.143 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-12-07 21:37:16.823 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:37:16.839 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:37:22.549 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 7596 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:37:22.551 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:37:23.793 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:37:23.811 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:37:23.813 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:37:23.814 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:37:23.902 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:37:23.902 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1298 ms
+2025-12-07 21:37:24.754 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:37:24.782 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:37:24.791 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.769 seconds (process running for 4.358)
+2025-12-07 21:37:56.791 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:37:56.801 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:38:01.592 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 32756 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:38:01.593 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:38:02.838 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:38:02.856 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:38:02.858 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:38:02.859 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:38:02.932 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:38:02.932 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms
+2025-12-07 21:38:03.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:38:03.693 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:38:03.700 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.635 seconds (process running for 3.792)
+2025-12-07 21:38:10.325 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:38:10.325 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:38:10.327 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:38:27.028 [http-nio-8080-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:38:27.029 [http-nio-8080-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:38:28.104 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:38:28.106 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:38:29.166 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:38:29.168 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:39:12.867 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:39:12.876 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:39:15.928 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 35080 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:39:15.932 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:39:17.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:39:17.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:39:17.723 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:39:17.723 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:39:17.848 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:39:17.848 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1851 ms
+2025-12-07 21:39:19.016 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:39:19.072 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:39:19.085 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.896 seconds (process running for 5.061)
+2025-12-07 21:39:19.167 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:39:19.167 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:39:19.167 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-07 21:41:26.950 [http-nio-8080-exec-3] INFO  com.example.controller.UploadController - name: null, age: 18, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5c69ad73
+2025-12-07 21:41:27.049 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:41:27.091 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:41:31.975 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 29876 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:41:31.979 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:41:33.715 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:41:33.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:41:33.743 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:41:33.744 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:41:33.847 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:41:33.848 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1796 ms
+2025-12-07 21:41:34.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:41:35.032 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:41:35.044 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.826 seconds (process running for 4.975)
+2025-12-07 21:41:35.202 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:41:35.202 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:41:35.203 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:41:37.942 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-12-07 21:41:48.551 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:41:48.563 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:41:52.993 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 15544 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:41:52.995 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:41:54.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:41:54.115 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:41:54.117 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:41:54.118 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:41:54.187 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:41:54.187 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1150 ms
+2025-12-07 21:41:54.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:41:54.936 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:41:54.943 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.429 seconds (process running for 3.465)
+2025-12-07 21:41:57.053 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:41:57.054 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:41:57.055 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:44:26.900 [http-nio-8080-exec-5] INFO  com.example.controller.UploadController - name: admin, age: 18, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@173b6d89
+2025-12-07 21:47:33.031 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:47:33.045 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:47:38.590 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 37208 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:47:38.594 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:47:40.143 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:47:40.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:47:40.169 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:47:40.170 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:47:40.268 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:47:40.268 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+2025-12-07 21:47:41.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:47:41.328 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:47:41.337 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.403 seconds (process running for 4.833)
+2025-12-07 21:47:44.517 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:47:44.517 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:47:44.519 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-07 21:47:48.276 [http-nio-8080-exec-1] INFO  com.example.controller.UploadController - name: admin, age: 18, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@74a447f8
+2025-12-07 21:53:32.431 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:53:32.442 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:53:41.732 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 3256 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:53:41.734 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:53:42.982 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:53:43.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:53:43.002 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:53:43.002 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:53:43.079 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:53:43.079 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1297 ms
+2025-12-07 21:53:43.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:53:43.921 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:53:43.930 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.749 seconds (process running for 3.939)
+2025-12-07 21:53:49.755 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:53:49.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:53:49.757 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:53:59.319 [http-nio-8080-exec-3] INFO  com.example.controller.UploadController - name: admin, age: 18, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@161281ad
+2025-12-07 21:55:20.279 [http-nio-8080-exec-9] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-12-07 21:56:37.932 [http-nio-8080-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2025-12-07 21:57:11.133 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:57:11.144 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 21:57:15.685 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 31028 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 21:57:15.687 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:57:16.741 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 21:57:16.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:57:16.759 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 21:57:16.759 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 21:57:16.829 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 21:57:16.829 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1094 ms
+2025-12-07 21:57:17.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:57:17.536 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:57:17.544 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.38 seconds (process running for 3.397)
+2025-12-07 21:57:24.802 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:57:24.803 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:57:24.804 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 21:57:24.900 [http-nio-8080-exec-2] INFO  com.example.controller.UploadController - username: null, age: 13, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@692af80b
+2025-12-07 21:58:40.670 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 21:58:40.674 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2025-12-07 22:00:21.470 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 22:00:21.483 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 22:00:24.259 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 44520 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 22:00:24.262 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 22:00:25.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 22:00:25.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:00:25.511 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 22:00:25.511 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 22:00:25.596 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 22:00:25.597 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms
+2025-12-07 22:00:26.422 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:00:26.451 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 22:00:26.460 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.736 seconds (process running for 3.838)
+2025-12-07 22:00:34.991 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 22:00:34.993 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 22:00:34.994 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-07 22:00:35.176 [http-nio-8080-exec-2] INFO  com.example.controller.UploadController - username: null, age: 13, file: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fd30d58
+2025-12-07 22:02:21.079 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 22:02:21.090 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 23:00:21.764 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 45860 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-07 23:00:21.766 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-07 23:00:23.136 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-07 23:00:23.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:00:23.158 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-07 23:00:23.158 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-07 23:00:23.243 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-07 23:00:23.244 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1429 ms
+2025-12-07 23:00:24.167 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:00:24.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 23:00:24.205 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.997 seconds (process running for 4.18)
+2025-12-07 23:00:28.124 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 23:00:28.124 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-07 23:00:28.126 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-07 23:00:28.223 [http-nio-8080-exec-2] INFO  com.example.controller.UploadController - 文件上传: 委屈的包子.png
+2025-12-07 23:00:29.232 [http-nio-8080-exec-2] INFO  com.example.controller.UploadController - 文件上传成功, https://suny1798.oss-cn-beijing.aliyuncs.com/2025/12/4df31fa1-7c8e-4afd-bf24-eb07be34092b.png
+2025-12-07 23:02:12.259 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 23:02:12.278 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 23:02:12.307 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-07 23:02:12.733 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6921a060
+2025-12-07 23:02:12.737 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-07 23:02:30.887 [http-nio-8080-exec-7] INFO  com.example.controller.UploadController - 文件上传: 伤心.png
+2025-12-07 23:02:31.287 [http-nio-8080-exec-7] INFO  com.example.controller.UploadController - 文件上传成功, https://suny1798.oss-cn-beijing.aliyuncs.com/2025/12/a023ffe7-da22-45e7-a9f4-496db6a016aa.png
+2025-12-07 23:04:04.761 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 添加用户信息emp: Emp(id=null, username=kku, password=null, name=哭哭, gender=2, phone=19988899777, job=2, salary=7890, image=https://suny1798.oss-cn-beijing.aliyuncs.com/2025/12/a023ffe7-da22-45e7-a9f4-496db6a016aa.png, entryDate=2025-12-07, deptId=6, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-12-25, end=2026-01-16, company=华为, job=扫地), EmpExpr(id=null, empId=null, begin=2026-01-01, end=2026-01-10, company=小米, job=工程师)])
+2025-12-07 23:04:04.774 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceimpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-12-07 23:04:04.776 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@308902902 wrapping com.mysql.cj.jdbc.ConnectionImpl@6921a060] for JDBC transaction
+2025-12-07 23:04:04.781 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@308902902 wrapping com.mysql.cj.jdbc.ConnectionImpl@6921a060] to manual commit
+2025-12-07 23:04:04.830 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2025-12-07 23:04:04.832 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@308902902 wrapping com.mysql.cj.jdbc.ConnectionImpl@6921a060]
+2025-12-07 23:04:04.841 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@308902902 wrapping com.mysql.cj.jdbc.ConnectionImpl@6921a060] after transaction
+2025-12-07 23:04:04.856 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 23:05:32.632 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 23:05:32.633 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 23:05:47.810 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-07 23:05:47.830 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-07 23:10:59.344 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 23:10:59.352 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-07 23:10:59.355 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-07 23:10:59.361 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

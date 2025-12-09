@@ -3,7 +3,6 @@ package com.example.service.impl;
 import com.example.mapper.DeptMapper;
 import com.example.pojo.Dept;
 import com.example.service.DeptService;
-import com.fasterxml.jackson.databind.Module;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
-public class SeptServiceimpl implements DeptService {
+public class DeptServiceimpl implements DeptService {
 
 
     @Autowired

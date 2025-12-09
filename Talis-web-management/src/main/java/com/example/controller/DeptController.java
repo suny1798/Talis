@@ -27,7 +27,6 @@ public class DeptController {
     @GetMapping("/depts")
     public Result list(){
         log.info("查询全部部门信息");
-//        System.out.println("查询全部部门信息");
         List<Dept> list = deptService.findAll();
         return Result.success(list);
     }
@@ -35,7 +34,6 @@ public class DeptController {
     @DeleteMapping("/depts")
     public Result deleteById(Integer id){
         log.info("删除部门信息 id:" + id);
-//        System.out.println("删除部门信息 id:" + id);
         deptService.deleteById(id);
         return Result.success();
     }
@@ -43,7 +41,6 @@ public class DeptController {
     @PostMapping("/depts")
     public  Result insert(@RequestBody Dept dept){
         log.info("添加部门信息:" + dept);
-//        System.out.println("添加部门信息:" + dept);
         deptService.insert(dept);
         return Result.success();
     }
@@ -51,7 +48,6 @@ public class DeptController {
     @GetMapping("/depts/{id}") //路径参数
     public Result findById(@PathVariable Integer id){
         log.info("查询部门信息 id:" + id);
-//        System.out.println("查询部门信息 id:" + id);
         Dept dept = deptService.findById(id);
         return Result.success(dept);
     }
@@ -59,7 +55,6 @@ public class DeptController {
     @PutMapping("/depts")
     public Result update(@RequestBody Dept dept){
         log.info("修改部门信息:" + dept);
-//        System.out.println("修改部门信息:" + dept);
         deptService.update(dept);
         return Result.success();
     }
