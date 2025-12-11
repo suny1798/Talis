@@ -1,7 +1,6 @@
 package com.example.Utils;
 
 import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
@@ -52,7 +51,7 @@ public class JwtUtil {
      * @param jwt JWT令牌字符串
      * @return 解析后的声明对象
      */
-    public static Jws<Claims> parseJwt(String jwt) {
+    public static Claims parseJwt(String jwt) {
         return parseJwt(jwt, DEFAULT_SECRET);
     }
     
@@ -62,9 +61,10 @@ public class JwtUtil {
      * @param secret 签名密钥
      * @return 解析后的声明对象
      */
-    public static Jws<Claims> parseJwt(String jwt, String secret) {
+    public static Claims parseJwt(String jwt, String secret) {
         return Jwts.parser()
                 .setSigningKey(secret)
-                .parseClaimsJws(jwt);
+                .parseClaimsJws(jwt)
+                .getBody();
     }
 }

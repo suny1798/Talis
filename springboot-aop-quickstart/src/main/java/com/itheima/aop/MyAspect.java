@@ -2,6 +2,7 @@ package com.itheima.aop;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,9 +19,13 @@ public class MyAspect {
     @Pointcut("execution(* com.itheima.service.impl.*.*(..))")
     public void pt(){}
 
-    @Before("execution(public void com.itheima.service.impl.DeptServiceImpl.save(com.itheima.pojo.Dept))")
-    public void before(){
+    @Before("pt()")
+    public void before(JoinPoint joinPoint){
         log.info("before方法执行了...");
+//        log.info("方法名称：{}", joinPoint.getSignature().getName());
+//        log.info("方法参数：{}", joinPoint.getArgs());
+//        log.info("方法所在类：{}", joinPoint.getTarget().getClass());
+//        log.info("方法所在包：{}", joinPoint.getTarget().getClass().getPackage());
     }
 
     @Around("pt()")

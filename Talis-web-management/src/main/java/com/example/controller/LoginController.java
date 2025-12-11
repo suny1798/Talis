@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import com.example.anno.LoginOperation;
 import com.example.pojo.Emp;
 import com.example.pojo.Logininfo;
 import com.example.pojo.Result;
@@ -19,12 +20,13 @@ public class LoginController {
     private EmpService empService;
 
     @PostMapping("/login")
-    public Result login(@RequestBody Emp  emp){
+    public Result login(@RequestBody Emp emp){
         log.info("登录： {}", emp);
         Logininfo logininfo = empService.login(emp);
-        if (logininfo != null)
+        if (logininfo != null) {
             return Result.success(logininfo);
+        }
         return Result.error("用户名或密码错误");
-
     }
+
 }
