@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.11/mvn-repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-          <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.11/mvn-repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="Talis-web-management" />
       </profile>
@@ -18,6 +17,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-aop-quickstart" />
+        <module name="talis-utils" />
+        <module name="talis-pojo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
